@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="That 3D Print Shop — straightforward custom 3D printing priced by material and weight.">
+  <meta name="theme-color" content="#071a33">
+  <title>That 3D Print Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="That 3D Print Shop home">
+      <img src="assets/that-3d-print-shop-logo.png" alt="That 3D Print Shop">
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#pricing">Pricing</a>
+      <a href="https://makerworld.com/en/search/models?keyword=peptide" target="_blank" rel="noopener noreferrer">Browse Designs <span aria-hidden="true">↗</span></a>
+      <button class="contact-button contact-trigger" type="button">Contact Us</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">CUSTOM 3D PRINTING</p>
+        <h1 id="hero-title">Your idea.<br><span>Printed.</span></h1>
+        <p class="hero-text">Choose a design, send us the link, and we’ll print it in the material that fits how you’ll use it.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="https://makerworld.com/en/search/models?keyword=peptide" target="_blank" rel="noopener noreferrer">Find a Design <span aria-hidden="true">↗</span></a>
+          <button class="secondary-action contact-trigger" type="button">Contact Us</button>
+        </div>
+      </div>
+      <div class="print-visual" aria-label="Layered 3D print graphic">
+        <div class="layer layer-one"></div>
+        <div class="layer layer-two"></div>
+        <div class="layer layer-three"></div>
+        <div class="layer layer-four"></div>
+        <div class="nozzle"><span></span></div>
+        <p>BUILT ONE LAYER<br>AT A TIME</p>
+      </div>
+    </section>
+
+    <section class="pricing-section" id="pricing" aria-labelledby="pricing-title">
+      <div class="section-heading">
+        <p class="eyebrow">SIMPLE PRICING</p>
+        <h2 id="pricing-title">Pick the right material.</h2>
+        <p>Pricing is based on the total filament used for your print.</p>
+      </div>
+
+      <div class="price-grid">
+        <article class="price-card">
+          <div class="material-code" aria-hidden="true">PLA</div>
+          <div class="price"><span>$5</span><small>PER 100G</small></div>
+          <h3>PLA</h3>
+          <p>Best for basic home storage, organizers, displays, and everyday indoor items.</p>
+          <div class="use-tag">EVERYDAY USE</div>
+        </article>
+
+        <article class="price-card featured">
+          <div class="popular-label">TOUGH &amp; WEATHER READY</div>
+          <div class="material-code" aria-hidden="true">PETG</div>
+          <div class="price"><span>$8</span><small>PER 100G</small></div>
+          <h3>PETG</h3>
+          <p>Great for hot or cold weather, garages, vehicles, and more durable everyday parts.</p>
+          <div class="use-tag">HEAT + COLD</div>
+        </article>
+
+        <article class="price-card">
+          <div class="material-code small" aria-hidden="true">CF+</div>
+          <div class="price"><span>$15</span><small>PER 100G</small></div>
+          <h3>Specialty</h3>
+          <p>Selected for a specific use, including carbon fiber and other specialty materials.</p>
+          <div class="use-tag">PURPOSE BUILT</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="how-it-works" aria-labelledby="how-title">
+      <div>
+        <p class="eyebrow">HOW IT WORKS</p>
+        <h2 id="how-title">Find it. Send it. We print it.</h2>
+      </div>
+      <ol>
+        <li><span>01</span><p><strong>Browse designs</strong>Find a model you like on MakerWorld.</p></li>
+        <li><span>02</span><p><strong>Copy the link</strong>Send us the design and your preferred material.</p></li>
+        <li><span>03</span><p><strong>Get your quote</strong>We’ll confirm the filament weight and total price.</p></li>
+      </ol>
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">READY TO PRINT?</p>
+        <h2 id="contact-title">Send us your design.</h2>
+        <p>Click below to copy our email, then send the model link and tell us how you plan to use the print.</p>
+      </div>
+      <button class="copy-email contact-trigger" type="button">
+        <span>LAB@THATEYEPLACE.COM</span>
+        <strong>CONTACT US</strong>
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand">
+      <img src="assets/that-3d-print-shop-logo.png" alt="That 3D Print Shop">
+    </div>
+    <p>Custom 3D printing • Priced by filament weight</p>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" aria-hidden="true">
+    <span class="toast-check" aria-hidden="true">✓</span>
+    <span><strong>Email copied</strong>LAB@THATEYEPLACE.COM</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
