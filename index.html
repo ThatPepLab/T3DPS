@@ -18,6 +18,7 @@
     </a>
     <nav aria-label="Main navigation">
       <a href="#pricing">Pricing</a>
+      <a href="#gallery">Gallery</a>
       <a href="https://makerworld.com/en/search/models?keyword=peptide" target="_blank" rel="noopener noreferrer">Browse Designs <span aria-hidden="true">↗</span></a>
       <button class="contact-button contact-trigger" type="button">Contact Us</button>
     </nav>
@@ -79,6 +80,59 @@
       </div>
     </section>
 
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading gallery-heading">
+        <p class="eyebrow">RECENT PRINTS</p>
+        <h2 id="gallery-title">Things we’ve created.</h2>
+        <p>Real projects printed by That 3D Print Shop. Select a photo to view it larger.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-card gallery-wide">
+          <button class="gallery-open" type="button" data-src="assets/gallery/custom-storage-case-closed.webp" data-alt="Closed green custom storage case with gray latches">
+            <img src="assets/gallery/custom-storage-case-closed.webp" alt="Closed green custom storage case with gray latches" loading="lazy">
+          </button>
+          <figcaption>Custom storage case</figcaption>
+        </figure>
+
+        <figure class="gallery-card gallery-tall">
+          <button class="gallery-open" type="button" data-src="assets/gallery/custom-stand.webp" data-alt="Bright green custom 3D-printed stand">
+            <img src="assets/gallery/custom-stand.webp" alt="Bright green custom 3D-printed stand" loading="lazy">
+          </button>
+          <figcaption>Custom stand</figcaption>
+        </figure>
+
+        <figure class="gallery-card gallery-tall">
+          <button class="gallery-open" type="button" data-src="assets/gallery/custom-storage-case-open.webp" data-alt="Open green storage case fitted for four pen-shaped items">
+            <img src="assets/gallery/custom-storage-case-open.webp" alt="Open green storage case fitted for four pen-shaped items" loading="lazy">
+          </button>
+          <figcaption>Fitted storage case</figcaption>
+        </figure>
+
+        <figure class="gallery-card gallery-tall">
+          <button class="gallery-open" type="button" data-src="assets/gallery/custom-organizer.webp" data-alt="Red custom 3D-printed organizer">
+            <img src="assets/gallery/custom-organizer.webp" alt="Red custom 3D-printed organizer" loading="lazy">
+          </button>
+          <figcaption>Custom organizer</figcaption>
+        </figure>
+
+        <figure class="gallery-card gallery-tall">
+          <button class="gallery-open" type="button" data-src="assets/gallery/barrel-container.webp" data-alt="Brown and black barrel-style 3D-printed container">
+            <img src="assets/gallery/barrel-container.webp" alt="Brown and black barrel-style 3D-printed container" loading="lazy">
+          </button>
+          <figcaption>Barrel-style container</figcaption>
+        </figure>
+
+        <figure class="gallery-card gallery-video">
+          <video controls preload="metadata" playsinline aria-label="Recent custom 3D print video">
+            <source src="assets/gallery/recent-print-video.mp4" type="video/mp4">
+            Your browser does not support embedded video.
+          </video>
+          <figcaption>See a recent print in action</figcaption>
+        </figure>
+      </div>
+    </section>
+
     <section class="how-it-works" aria-labelledby="how-title">
       <div>
         <p class="eyebrow">HOW IT WORKS</p>
@@ -115,6 +169,11 @@
     <span class="toast-check" aria-hidden="true">✓</span>
     <span><strong>Email copied</strong>LAB@THATEYEPLACE.COM</span>
   </div>
+
+  <dialog class="lightbox" aria-label="Expanded gallery photo">
+    <button class="lightbox-close" type="button" aria-label="Close photo">×</button>
+    <img src="" alt="">
+  </dialog>
 
   <script src="script.js"></script>
 </body>

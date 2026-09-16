@@ -29,3 +29,25 @@ async function copyEmail() {
 document.querySelectorAll('.contact-trigger').forEach((button) => {
   button.addEventListener('click', copyEmail);
 });
+
+const lightbox = document.querySelector('.lightbox');
+const lightboxImage = lightbox.querySelector('img');
+const lightboxClose = lightbox.querySelector('.lightbox-close');
+
+document.querySelectorAll('.gallery-open').forEach((button) => {
+  button.addEventListener('click', () => {
+    lightboxImage.src = button.dataset.src;
+    lightboxImage.alt = button.dataset.alt;
+    lightbox.showModal();
+  });
+});
+
+function closeLightbox() {
+  lightbox.close();
+  lightboxImage.src = '';
+}
+
+lightboxClose.addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', (event) => {
+  if (event.target === lightbox) closeLightbox();
+});
