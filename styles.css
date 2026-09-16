@@ -124,18 +124,14 @@ h2 { margin-bottom: 12px; color: var(--navy); font-size: clamp(37px, 5vw, 60px);
 .material-label { display: block; margin-bottom: 3px; color: var(--orange); font-size: 12px; font-weight: 800; letter-spacing: .16em; }
 .color-panel-heading h3 { margin: 0; color: var(--navy); font-size: clamp(22px, 2.6vw, 30px); }
 .availability-badge { flex: 0 0 auto; padding: 7px 10px; color: var(--navy); background: #edf1f4; border: 1px solid #cbd3da; font-size: 11px; font-weight: 800; letter-spacing: .08em; }
-.pla-panel > img { width: 100%; display: block; aspect-ratio: 3 / 2; object-fit: cover; border: 1px solid var(--line); }
-.color-name-list { margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 9px; list-style: none; }
-.color-name-list li { padding: 9px 10px; display: flex; align-items: center; gap: 8px; color: var(--navy); background: #f6f8fa; border: 1px solid #e0e5e9; font-size: 13px; font-weight: 800; }
-.color-dot { width: 15px; height: 15px; flex: 0 0 auto; border: 2px solid #6d7882; border-radius: 50%; }
-.color-dot.black, .swatch-sample.black { background: #111; }
-.color-dot.white { background: #fff; }
-.color-dot.blue { background: #075ed7; }
-.color-dot.red { background: #e21b20; }
-.color-dot.olive { background: #667a25; }
-.color-dot.brown { background: #76401f; }
-.color-dot.purple { background: #8069d7; }
-.color-dot.light-green { background: #31c85d; }
+.swatch-sample.black { background: #111; }
+.swatch-sample.white { background: #fff; }
+.swatch-sample.blue { background: #075ed7; }
+.swatch-sample.red { background: #e21b20; }
+.swatch-sample.olive { background: #667a25; }
+.swatch-sample.brown { background: #76401f; }
+.swatch-sample.purple { background: #8069d7; }
+.swatch-sample.light-green { background: #31c85d; }
 .petg-panel { display: flex; flex-direction: column; }
 .petg-swatches { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
 .petg-swatch { min-height: 112px; padding: 15px; display: grid; grid-template-columns: 34px 1fr; grid-template-rows: auto auto; column-gap: 12px; align-items: center; background: #f6f8fa; border: 1px solid #dbe1e6; }
@@ -223,7 +219,6 @@ footer p { margin: 0; color: #9aa8b6; font-size: 13px; }
   .layer-four { width: 42%; }
   .pricing-section { padding-inline: 18px; }
   .color-panel { padding: 20px; }
-  .color-name-list { grid-template-columns: repeat(2, 1fr); }
   .petg-swatches { grid-template-columns: 1fr; }
   .petg-swatch { min-height: 96px; }
   .gallery-section { padding-inline: 18px; }
