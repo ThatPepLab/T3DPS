@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <header class="site-header">
@@ -77,6 +77,53 @@
           <p>Selected for a specific use, including carbon fiber and other specialty materials.</p>
           <div class="use-tag">PURPOSE BUILT</div>
         </article>
+      </div>
+
+      <div class="colors-block" aria-labelledby="colors-title">
+        <div class="colors-heading">
+          <p class="eyebrow">AVAILABLE NOW</p>
+          <h2 id="colors-title">Choose your color.</h2>
+          <p>Current color availability by material. Color appearance may vary slightly from screen to finished print.</p>
+        </div>
+
+        <div class="material-colors-grid">
+          <article class="color-panel pla-panel">
+            <div class="color-panel-heading">
+              <div>
+                <span class="material-label">PLA</span>
+                <h3>Everyday colors</h3>
+              </div>
+              <span class="availability-badge">6 AVAILABLE</span>
+            </div>
+            <img src="assets/colors/pla-available-colors.svg" alt="Available PLA colors: Black, White, Blue, Red, Olive Green, and Brown" loading="lazy">
+            <ul class="color-name-list" aria-label="Available PLA colors">
+              <li><span class="color-dot black" aria-hidden="true"></span>Black</li>
+              <li><span class="color-dot white" aria-hidden="true"></span>White</li>
+              <li><span class="color-dot blue" aria-hidden="true"></span>Blue</li>
+              <li><span class="color-dot red" aria-hidden="true"></span>Red</li>
+              <li><span class="color-dot olive" aria-hidden="true"></span>Olive Green</li>
+              <li><span class="color-dot brown" aria-hidden="true"></span>Brown</li>
+            </ul>
+          </article>
+
+          <article class="color-panel petg-panel">
+            <div class="color-panel-heading">
+              <div>
+                <span class="material-label">PETG</span>
+                <h3>Heat + cold ready</h3>
+              </div>
+              <span class="availability-badge">5 AVAILABLE</span>
+            </div>
+            <div class="petg-swatches" aria-label="Available PETG colors">
+              <div class="petg-swatch"><span class="swatch-sample green" aria-hidden="true"></span><strong>Green</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample pink" aria-hidden="true"></span><strong>Pink</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample black" aria-hidden="true"></span><strong>Black</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample grey" aria-hidden="true"></span><strong>Grey</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample orange" aria-hidden="true"></span><strong>Orange</strong><small>PETG</small></div>
+            </div>
+            <p class="color-note">PETG is recommended when the finished print may be exposed to higher heat, colder temperatures, or outdoor conditions.</p>
+          </article>
+        </div>
       </div>
     </section>
 
