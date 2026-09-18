@@ -207,7 +207,7 @@ footer p { margin: 0; color: #9aa8b6; font-size: 13px; }
   .print-visual { min-height: 430px; }
   .price-grid { grid-template-columns: 1fr; }
   .price-card { min-height: 340px; }
-  .material-colors-grid { grid-template-columns: 1fr; }
+  .material-colors-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
   .gallery-card, .gallery-card.gallery-wide { grid-column: span 6; }
   .gallery-project-heading { min-height: 156px; }
   .gallery-project-images { height: 280px; }
@@ -230,9 +230,17 @@ footer p { margin: 0; color: #9aa8b6; font-size: 13px; }
   .layer-three { width: 54%; }
   .layer-four { width: 42%; }
   .pricing-section { padding-inline: 18px; }
-  .color-panel { padding: 20px; }
+  .material-colors-grid { gap: 10px; }
+  .color-panel { padding: 12px; }
+  .color-panel-heading { margin-bottom: 14px; flex-direction: column; gap: 8px; }
+  .color-panel-heading h3 { font-size: 18px; }
+  .availability-badge { padding: 6px 7px; font-size: 9px; }
   .petg-swatches { grid-template-columns: 1fr; }
-  .petg-swatch { min-height: 96px; }
+  .petg-swatch { min-height: 74px; padding: 8px; grid-template-columns: 24px 1fr; column-gap: 8px; }
+  .swatch-sample { width: 24px; height: 50px; border-radius: 13px; }
+  .petg-swatch strong { font-size: 13px; }
+  .petg-swatch small { font-size: 9px; }
+  .color-note { font-size: 12px; }
   .gallery-section { padding-inline: 18px; }
   .gallery-card, .gallery-card.gallery-wide, .gallery-project { grid-column: 1 / -1; }
   .gallery-project-heading { min-height: 0; padding: 18px; }
