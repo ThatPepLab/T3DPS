@@ -98,6 +98,29 @@ h1 span { color: var(--orange); }
 .nozzle span { position: absolute; inset: 16px 26px 76px; border: 4px solid #778594; }
 .print-visual p { position: absolute; right: 7%; bottom: 30px; margin: 0; color: rgba(255,255,255,.62); font-size: 12px; font-weight: 800; line-height: 1.25; letter-spacing: .16em; text-align: right; }
 
+.why-section {
+  padding: clamp(64px, 8vw, 104px) clamp(24px, 7vw, 105px);
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: clamp(36px, 7vw, 96px);
+  background: var(--white);
+}
+.why-heading { align-self: start; }
+.why-heading h2 { margin-bottom: 0; }
+.why-grid { display: grid; gap: 0; }
+.why-grid article {
+  padding: 26px 0;
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  column-gap: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.why-grid article:first-child { padding-top: 0; }
+.why-grid article:last-child { padding-bottom: 0; border-bottom: 0; }
+.why-grid span { grid-row: 1 / 3; color: var(--orange); font-size: 14px; font-weight: 800; letter-spacing: .08em; }
+.why-grid h3 { margin: 0 0 6px; color: var(--navy); font-size: 22px; }
+.why-grid p { margin: 0; color: var(--muted); }
+
 .pricing-section { padding: clamp(72px, 8vw, 108px) clamp(24px, 7vw, 105px); }
 .section-heading { max-width: 650px; margin-bottom: 42px; }
 h2 { margin-bottom: 12px; color: var(--navy); font-size: clamp(37px, 5vw, 60px); line-height: 1.05; letter-spacing: -.045em; }
@@ -114,6 +137,33 @@ h2 { margin-bottom: 12px; color: var(--navy); font-size: clamp(37px, 5vw, 60px);
 .price-card h3 { margin-bottom: 7px; color: var(--navy); font-size: 24px; }
 .price-card p { color: var(--muted); }
 .use-tag { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); color: var(--navy); font-size: 12px; font-weight: 800; letter-spacing: .12em; }
+
+.shipping-policy {
+  margin-top: 22px;
+  padding: 24px 28px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 22px;
+  color: var(--white);
+  background: var(--navy);
+  border-left: 6px solid var(--orange);
+}
+.shipping-icon {
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  color: var(--navy);
+  background: var(--orange);
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 800;
+}
+.shipping-policy .eyebrow { margin-bottom: 4px; }
+.shipping-policy h3 { margin: 0 0 4px; color: var(--white); font-size: clamp(21px, 2.4vw, 29px); }
+.shipping-policy p:last-child { margin: 0; color: #c9d2dc; }
+.shipping-policy > strong { max-width: 150px; color: var(--orange); font-size: 13px; line-height: 1.35; letter-spacing: .06em; text-align: right; text-transform: uppercase; }
 
 .colors-block { margin-top: clamp(72px, 8vw, 110px); padding-top: clamp(58px, 6vw, 82px); border-top: 1px solid #cfd5db; }
 .colors-heading { max-width: 720px; margin-bottom: 38px; }
@@ -205,8 +255,11 @@ footer p { margin: 0; color: #9aa8b6; font-size: 13px; }
   nav a { display: none; }
   .hero { grid-template-columns: 1fr; }
   .print-visual { min-height: 430px; }
+  .why-section { grid-template-columns: 1fr; }
   .price-grid { grid-template-columns: 1fr; }
   .price-card { min-height: 340px; }
+  .shipping-policy { grid-template-columns: auto 1fr; }
+  .shipping-policy > strong { grid-column: 2; max-width: none; text-align: left; }
   .material-colors-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
   .gallery-card, .gallery-card.gallery-wide { grid-column: span 6; }
   .gallery-project-heading { min-height: 156px; }
@@ -223,6 +276,9 @@ footer p { margin: 0; color: #9aa8b6; font-size: 13px; }
   .hero-copy { padding: 65px 24px 60px; }
   .hero-actions { display: grid; }
   .primary-action, .secondary-action { width: 100%; }
+  .why-section { padding-inline: 18px; }
+  .why-grid article { grid-template-columns: 42px 1fr; column-gap: 12px; }
+  .why-grid h3 { font-size: 19px; }
   .print-visual { min-height: 365px; }
   .nozzle { transform: translateX(-50%) scale(.78); transform-origin: top; }
   .layer-one { width: 78%; }
@@ -230,6 +286,9 @@ footer p { margin: 0; color: #9aa8b6; font-size: 13px; }
   .layer-three { width: 54%; }
   .layer-four { width: 42%; }
   .pricing-section { padding-inline: 18px; }
+  .shipping-policy { padding: 20px; grid-template-columns: 1fr; gap: 12px; }
+  .shipping-icon { width: 58px; height: 58px; font-size: 17px; }
+  .shipping-policy > strong { grid-column: auto; }
   .material-colors-grid { gap: 10px; }
   .color-panel { padding: 12px; }
   .color-panel-heading { margin-bottom: 14px; flex-direction: column; gap: 8px; }
