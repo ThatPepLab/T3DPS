@@ -156,15 +156,7 @@ h2 { margin-bottom: 12px; color: var(--navy); font-size: clamp(37px, 5vw, 60px);
   place-items: center;
   color: var(--navy);
   background: var(--orange);
-  border-radius: 50%;192
-
-  .swatch-sample.sunny-orange { background: #ff8a1f; }
-.swatch-sample.lavender-purple { background: #b79be8; }
-.swatch-sample.yellow { background: #f3cf2f; }
-.swatch-sample.olive-green { background: #6f782f; }
-.swatch-sample.coffee-brown { background: #5b3724; }
-.swatch-sample.beige { background: #d9c39e; }
-.swatch-sample.oak { background: #b88652; }
+  border-radius: 50%;
   font-size: 20px;
   font-weight: 800;
 }
@@ -198,6 +190,13 @@ h2 { margin-bottom: 12px; color: var(--navy); font-size: clamp(37px, 5vw, 60px);
 .swatch-sample.pink { background: #ed68a5; }
 .swatch-sample.grey { background: #7c838a; }
 .swatch-sample.orange { background: #f26522; }
+.swatch-sample.sunny-orange { background: #ff8a1f; }
+.swatch-sample.lavender-purple { background: #b79be8; }
+.swatch-sample.yellow { background: #f3cf2f; }
+.swatch-sample.olive-green { background: #6f782f; }
+.swatch-sample.coffee-brown { background: #5b3724; }
+.swatch-sample.beige { background: #d9c39e; }
+.swatch-sample.oak { background: #b88652; }
 .petg-swatch strong { align-self: end; color: var(--navy); font-size: 17px; }
 .petg-swatch small { align-self: start; color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .1em; }
 .color-note { margin: auto 0 0; padding-top: 22px; color: var(--muted); font-size: 14px; }
