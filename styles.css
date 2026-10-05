@@ -156,7 +156,15 @@ h2 { margin-bottom: 12px; color: var(--navy); font-size: clamp(37px, 5vw, 60px);
   place-items: center;
   color: var(--navy);
   background: var(--orange);
-  border-radius: 50%;
+  border-radius: 50%;192
+
+  .swatch-sample.sunny-orange { background: #ff8a1f; }
+.swatch-sample.lavender-purple { background: #b79be8; }
+.swatch-sample.yellow { background: #f3cf2f; }
+.swatch-sample.olive-green { background: #6f782f; }
+.swatch-sample.coffee-brown { background: #5b3724; }
+.swatch-sample.beige { background: #d9c39e; }
+.swatch-sample.oak { background: #b88652; }
   font-size: 20px;
   font-weight: 800;
 }
