@@ -234,6 +234,474 @@
 
                         <div class="petg-swatch"><span class="swatch-sample sunny-orange" aria-hidden="true"></span><strong>Sunny Orange</strong><small>PETG</small></div>
               <div class="petg-swatch"><span class="swatch-sample lavender-purple" aria-hidden="true"></span><strong>Lavender Purple</strong><small>PETG</small></div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="That 3D Print Shop — straightforward custom 3D printing priced by material and weight.">
+  <meta name="theme-color" content="#071a33">
+  <title>That 3D Print Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=10">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="That 3D Print Shop home">
+      <img src="assets/that-3d-print-shop-logo-full.svg" alt="That 3D Print Shop">
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#pricing">Pricing</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#gallery">Gallery</a>
+      <a href="https://makerworld.com/en/search/models?keyword=peptide" target="_blank" rel="noopener noreferrer">Browse Designs <span aria-hidden="true">↗</span></a>
+      <button class="contact-button contact-trigger" type="button">Email Us</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">CUSTOM 3D PRINTING</p>
+        <h1 id="hero-title">Your idea.<br><span>Printed.</span></h1>
+        <p class="hero-text">Choose a design, send us the link, and we’ll print it in the material that fits how you’ll use it.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="https://makerworld.com/en/search/models?keyword=peptide" target="_blank" rel="noopener noreferrer">Find a Design <span aria-hidden="true">↗</span></a>
+          <button class="secondary-action contact-trigger" type="button">Email Us</button>
+        </div>
+      </div>
+      <div class="print-visual" aria-label="Layered 3D print graphic">
+        <div class="layer layer-one"></div>
+        <div class="layer layer-two"></div>
+        <div class="layer layer-three"></div>
+        <div class="layer layer-four"></div>
+        <div class="nozzle"><span></span></div>
+        <p>BUILT ONE LAYER<br>AT A TIME</p>
+      </div>
+    </section>
+
+    <section class="why-section" id="why-us" aria-labelledby="why-title">
+      <div class="why-heading">
+        <p class="eyebrow">WHY THAT 3D PRINT SHOP?</p>
+        <h2 id="why-title">Find what you want.<br>We’ll print it.</h2>
+      </div>
+      <div class="why-grid">
+        <article>
+          <span aria-hidden="true">01</span>
+          <h3>Choose your design</h3>
+          <p>Find a model you want online and send us the link. We’ll help choose the right material and turn it into a finished print.</p>
+        </article>
+        <article>
+          <span aria-hidden="true">02</span>
+          <h3>We handle permission</h3>
+          <p>When permission is needed to modify or sell a design, we contact the creator—so you don’t have to.</p>
+        </article>
+        <article>
+          <span aria-hidden="true">03</span>
+          <h3>Your order supports testing</h3>
+          <p>Money earned from our prints helps fund peptide testing that provides useful results for everyone.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing-section" id="pricing" aria-labelledby="pricing-title">
+      <div class="section-heading">
+        <p class="eyebrow">SIMPLE PRICING</p>
+        <h2 id="pricing-title">Pick the right material.</h2>
+        <p>Pricing is based on the total filament used for your print.</p>
+      </div>
+
+      <div class="price-grid">
+        <article class="price-card">
+          <div class="material-code" aria-hidden="true">PLA</div>
+          <div class="price"><span>$5</span><small>PER 100G</small></div>
+          <h3>PLA</h3>
+          <p>Best for basic home storage, organizers, displays, and everyday indoor items.</p>
+          <div class="use-tag">EVERYDAY USE</div>
+        </article>
+
+        <article class="price-card featured">
+          <div class="popular-label">TOUGH &amp; WEATHER READY</div>
+          <div class="material-code" aria-hidden="true">PETG</div>
+          <div class="price"><span>$8</span><small>PER 100G</small></div>
+          <h3>PETG</h3>
+          <p>Great for hot or cold weather, garages, vehicles, and more durable everyday parts.</p>
+          <div class="use-tag">HEAT + COLD</div>
+        </article>
+
+        <article class="price-card">
+          <div class="material-code small" aria-hidden="true">CF+</div>
+          <div class="price"><span>$15</span><small>PER 100G</small></div>
+          <h3>Specialty</h3>
+          <p>Selected for a specific use, including carbon fiber and other specialty materials.</p>
+          <div class="use-tag">PURPOSE BUILT</div>
+        </article>
+      </div>
+
+      <aside class="shipping-policy" aria-labelledby="shipping-title">
+        <div class="shipping-icon" aria-hidden="true">$10</div>
+        <div>
+          <p class="eyebrow">SHIPPING</p>
+          <h3 id="shipping-title">$10 flat rate or free at $60.</h3>
+          <p>Shipping is $10 when your print subtotal is under $60. Orders with a print subtotal of $60 or more ship free.</p>
+        </div>
+        <strong>Calculated before shipping</strong>
+      </aside>
+
+      <div class="colors-block" aria-labelledby="colors-title">
+        <div class="colors-heading">
+          <p class="eyebrow">AVAILABLE NOW</p>
+          <h2 id="colors-title">Choose your color.</h2>
+          <p>Current color availability by material. Color appearance may vary slightly from screen to finished print.</p>
+        </div>
+
+        <div class="material-colors-grid">
+          <article class="color-panel pla-panel">
+            <div class="color-panel-heading">
+              <div>
+                <span class="material-label">PLA</span>
+                <h3>PLA colors</h3>
+              </div>
+              <span class="availability-badge">8 AVAILABLE</span>
+            </div>
+            <div class="petg-swatches pla-swatches" aria-label="Available PLA colors">
+              <div class="petg-swatch"><span class="swatch-sample black" aria-hidden="true"></span><strong>Black</strong><small>PLA</small></div>
+              <div class="petg-swatch"><span class="swatch-sample white" aria-hidden="true"></span><strong>White</strong><small>PLA</small></div>
+              <div class="petg-swatch"><span class="swatch-sample blue" aria-hidden="true"></span><strong>Blue</strong><small>PLA</small></div>
+              <div class="petg-swatch"><span class="swatch-sample red" aria-hidden="true"></span><strong>Red</strong><small>PLA</small></div>
+              <div class="petg-swatch"><span class="swatch-sample orange" aria-hidden="true"></span><strong>Orange</strong><small>PLA</small></div>
+              <div class="petg-swatch"><span class="swatch-sample brown" aria-hidden="true"></span><strong>Brown</strong><small>PLA</small></div>
+              <div class="petg-swatch"><span class="swatch-sample purple" aria-hidden="true"></span><strong>Purple</strong><small>PLA</small></div>
+              <div class="petg-swatch"><span class="swatch-sample light-green" aria-hidden="true"></span><strong>Light Green</strong><small>PLA</small></div>
+            </div>
+          </article>
+
+          <article class="color-panel petg-panel">
+            <div class="color-panel-heading">
+              <div>
+                <span class="material-label">PETG</span>
+                <h3>Heat + cold ready</h3>
+              </div>
+              <span class="availability-badge">15 AVAILABLE</span>
+            </div>
+            <div class="petg-swatches" aria-label="Available PETG colors">
+              <div class="petg-swatch"><span class="swatch-sample black" aria-hidden="true"></span><strong>Black</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample white" aria-hidden="true"></span><strong>White</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample blue" aria-hidden="true"></span><strong>Blue</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample red" aria-hidden="true"></span><strong>Red</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample orange" aria-hidden="true"></span><strong>Orange</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample green" aria-hidden="true"></span><strong>Green</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample pink" aria-hidden="true"></span><strong>Pink</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample grey" aria-hidden="true"></span><strong>Grey</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample sunny-orange" aria-hidden="true"></span><strong>Sunny Orange</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample lavender-purple" aria-hidden="true"></span><strong>Lavender Purple</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample yellow" aria-hidden="true"></span><strong>Yellow</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample olive-green" aria-hidden="true"></span><strong>Olive Green</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample coffee-brown" aria-hidden="true"></span><strong>Coffee Brown</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample beige" aria-hidden="true"></span><strong>Beige</strong><small>PETG</small></div>
+              <div class="petg-swatch"><span class="swatch-sample oak" aria-hidden="true"></span><strong>Oak</strong><small>PETG</small></div>
+            </div>
+            <p class="color-note">PETG is recommended when the finished print may be exposed to higher heat, colder temperatures, or outdoor conditions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading gallery-heading">
+        <p class="eyebrow">RECENT PRINTS</p>
+        <h2 id="gallery-title">Things we’ve created.</h2>
+        <p>Real projects printed by That 3D Print Shop. Select a photo to view it larger.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>6-Vial 3 mL, Alcohol Wipe &amp; U-100 Storage Box</h3>
+            </div>
+            <p>Fitted travel box with dedicated storage for six 3 mL vials, alcohol wipes, and U-100 supplies.</p>
+          </div>
+          <div class="gallery-project-images collage-two">
+            <button class="gallery-open" type="button" data-src="assets/gallery/6-vial-3ml-supplies-box-open.webp" data-alt="Open black storage box with six 3 mL vial slots and compartments for alcohol wipes and U-100 supplies">
+              <img src="assets/gallery/6-vial-3ml-supplies-box-open.webp" alt="Open black storage box with six 3 mL vial slots and compartments for alcohol wipes and U-100 supplies" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/6-vial-3ml-supplies-box-closed.webp" data-alt="Closed black six-vial storage box">
+              <img src="assets/gallery/6-vial-3ml-supplies-box-closed.webp" alt="Closed black six-vial storage box" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>Coin Organizer</h3>
+            </div>
+            <p>Rotating multi-compartment organizer that separates coins by denomination.</p>
+          </div>
+          <div class="gallery-project-images collage-three">
+            <button class="gallery-open project-landscape" type="button" data-src="assets/gallery/coin-organizer-closed.webp" data-alt="Closed black cylindrical coin organizer with a diagonal textured finish">
+              <img src="assets/gallery/coin-organizer-closed.webp" alt="Closed black cylindrical coin organizer with a diagonal textured finish" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/coin-organizer-open.webp" data-alt="Open yellow coin organizer insert holding stacks of coins by denomination">
+              <img src="assets/gallery/coin-organizer-open.webp" alt="Open yellow coin organizer insert holding stacks of coins by denomination" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/coin-organizer-top.webp" data-alt="Top view of the rotating yellow coin organizer insert">
+              <img src="assets/gallery/coin-organizer-top.webp" alt="Top view of the rotating yellow coin organizer insert" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>12ga Milwaukee Packout Range Kit</h3>
+            </div>
+            <p>Custom-fit insert that securely organizes 12-gauge shells inside a compact Packout case.</p>
+          </div>
+          <div class="gallery-project-images collage-two">
+            <button class="gallery-open" type="button" data-src="assets/gallery/milwaukee-packout-12ga-open.webp" data-alt="Open Milwaukee Packout case with a fitted 12-gauge shell insert">
+              <img src="assets/gallery/milwaukee-packout-12ga-open.webp" alt="Open Milwaukee Packout case with a fitted 12-gauge shell insert" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/milwaukee-packout-12ga-closed.webp" data-alt="Closed clear-lid Milwaukee Packout range kit">
+              <img src="assets/gallery/milwaukee-packout-12ga-closed.webp" alt="Closed clear-lid Milwaukee Packout range kit" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>Milwaukee Packout Range Kit</h3>
+            </div>
+            <p>Custom-fit Packout insert with dedicated compartments for range equipment, magazines, ammunition, and accessories.</p>
+          </div>
+          <div class="gallery-project-images collage-two">
+            <button class="gallery-open" type="button" data-src="assets/gallery/milwaukee-packout-range-kit-open.webp" data-alt="Open Milwaukee Packout range kit with a fitted black organizer insert">
+              <img src="assets/gallery/milwaukee-packout-range-kit-open.webp" alt="Open Milwaukee Packout range kit with a fitted black organizer insert" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/milwaukee-packout-range-kit-closed.webp" data-alt="Closed clear-lid Milwaukee Packout range kit showing the fitted organizer">
+              <img src="assets/gallery/milwaukee-packout-range-kit-closed.webp" alt="Closed clear-lid Milwaukee Packout range kit showing the fitted organizer" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>Reconstitution Tray with Holder</h3>
+            </div>
+            <p>A coordinated reconstitution tray and holder, shown as each finished printing.</p>
+          </div>
+          <div class="gallery-project-images collage-two">
+            <button class="gallery-open" type="button" data-src="assets/gallery/reconstitution-tray-holder-1.webp" data-alt="Freshly printed reconstitution holder on the printer bed">
+              <img src="assets/gallery/reconstitution-tray-holder-1.webp" alt="Freshly printed reconstitution holder on the printer bed" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/reconstitution-tray-holder-2.webp" data-alt="Freshly printed reconstitution tray on the printer bed">
+              <img src="assets/gallery/reconstitution-tray-holder-2.webp" alt="Freshly printed reconstitution tray on the printer bed" loading="lazy">
+            </button>
+          </div>
+          <div class="gallery-project-video">
+            <video controls preload="metadata" poster="assets/gallery/reconstitution-tray-holder-2.webp">
+              <source src="assets/gallery/reconstitution-tray-holder.mp4" type="video/mp4">
+              Your browser does not support embedded video.
+            </video>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>3ml Vial Storage</h3>
+            </div>
+            <p>Compact printed containers designed for organized 3 mL vial storage.</p>
+          </div>
+          <div class="gallery-project-images">
+            <button class="gallery-open" type="button" data-src="assets/gallery/3ml-vial-storage.webp" data-alt="Pink 3 mL vial storage containers and lids freshly printed on the printer bed">
+              <img src="assets/gallery/3ml-vial-storage.webp" alt="Pink 3 mL vial storage containers and lids freshly printed on the printer bed" loading="lazy">
+            </button>
+          </div>
+          <div class="gallery-project-video">
+            <video controls preload="metadata" poster="assets/gallery/3ml-vial-storage.webp">
+              <source src="assets/gallery/3ml-vial-storage.mp4" type="video/mp4">
+              Your browser does not support embedded video.
+            </video>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>Harbor Freight Apache 550 - 84 Vial 3 mL Storage Insert</h3>
+            </div>
+            <p>Custom-fit insert that organizes up to 84 individual 3 mL vials inside an Apache 550 case.</p>
+          </div>
+          <div class="gallery-project-images collage-three">
+            <button class="gallery-open project-landscape" type="button" data-src="assets/gallery/apache-550-84-vial-open.webp" data-alt="Open Apache 550 clear case with a blue 84-vial storage insert">
+              <img src="assets/gallery/apache-550-84-vial-open.webp" alt="Open Apache 550 clear case with a blue 84-vial storage insert" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/apache-550-84-vial-open-detail.webp" data-alt="Close view of the blue 84-vial insert">
+              <img src="assets/gallery/apache-550-84-vial-open-detail.webp" alt="Close view of the blue 84-vial insert" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/apache-550-84-vial-closed.webp" data-alt="Closed Apache 550 case showing the blue storage insert">
+              <img src="assets/gallery/apache-550-84-vial-closed.webp" alt="Closed Apache 550 case showing the blue storage insert" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>3 mL &amp; 10 mL Vial Holder</h3>
+            </div>
+            <p>Compact fitted case designed to securely organize both 3 mL and 10 mL vials.</p>
+          </div>
+          <div class="gallery-project-images collage-two">
+            <button class="gallery-open" type="button" data-src="assets/gallery/3ml-10ml-vial-holder-closed.webp" data-alt="Closed pink 3 mL and 10 mL vial holder case">
+              <img src="assets/gallery/3ml-10ml-vial-holder-closed.webp" alt="Closed pink 3 mL and 10 mL vial holder case" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/3ml-10ml-vial-holder-open.webp" data-alt="Open fitted holder for 3 mL and 10 mL vials">
+              <img src="assets/gallery/3ml-10ml-vial-holder-open.webp" alt="Open fitted holder for 3 mL and 10 mL vials" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>36-Count 10 mL Vial Holder</h3>
+            </div>
+            <p>Two-color fitted storage case with secure latches and individual vial slots.</p>
+          </div>
+          <div class="gallery-project-images collage-three">
+            <button class="gallery-open project-landscape" type="button" data-src="assets/gallery/10ml-vial-holder-closed.svg" data-alt="Closed green and orange 36-count 10 mL vial holder case">
+              <img src="assets/gallery/10ml-vial-holder-closed.svg" alt="Closed green and orange 36-count 10 mL vial holder case" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/10ml-vial-holder-open.svg" data-alt="Open green and orange 36-count 10 mL vial holder case">
+              <img src="assets/gallery/10ml-vial-holder-open.svg" alt="Open green and orange 36-count 10 mL vial holder case" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/10ml-vial-holder-slots.svg" data-alt="Close-up of 36 individual slots in the 10 mL vial holder">
+              <img src="assets/gallery/10ml-vial-holder-slots.svg" alt="Close-up of 36 individual slots in the 10 mL vial holder" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>100-Count 3 mL Vial Case</h3>
+            </div>
+            <p>Two-color fitted storage case with 100 individual slots for 3 mL vials.</p>
+          </div>
+          <div class="gallery-project-images collage-two">
+            <button class="gallery-open" type="button" data-src="assets/gallery/100-count-3ml-vial-case-closed.webp" data-alt="Closed orange 100-count 3 mL vial storage case">
+              <img src="assets/gallery/100-count-3ml-vial-case-closed.webp" alt="Closed orange 100-count 3 mL vial storage case" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/100-count-3ml-vial-case-open.webp" data-alt="Open orange and blue case with 100 individual 3 mL vial slots">
+              <img src="assets/gallery/100-count-3ml-vial-case-open.webp" alt="Open orange and blue case with 100 individual 3 mL vial slots" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <article class="gallery-project">
+          <div class="gallery-project-heading">
+            <div>
+              <span>COMPLETED PROJECT</span>
+              <h3>5 Research Pen Holder</h3>
+            </div>
+            <p>Custom-fit storage case designed to securely organize five research pens.</p>
+          </div>
+          <div class="gallery-project-images collage-two">
+            <button class="gallery-open" type="button" data-src="assets/gallery/custom-storage-case-closed.webp" data-alt="Closed green five research pen holder with gray latches">
+              <img src="assets/gallery/custom-storage-case-closed.webp" alt="Closed green five research pen holder with gray latches" loading="lazy">
+            </button>
+            <button class="gallery-open" type="button" data-src="assets/gallery/custom-storage-case-open.webp" data-alt="Open green fitted storage case for five research pens">
+              <img src="assets/gallery/custom-storage-case-open.webp" alt="Open green fitted storage case for five research pens" loading="lazy">
+            </button>
+          </div>
+        </article>
+
+        <figure class="gallery-card gallery-tall">
+          <button class="gallery-open" type="button" data-src="assets/gallery/custom-stand.webp" data-alt="Bright green custom 3D-printed stand">
+            <img src="assets/gallery/custom-stand.webp" alt="Bright green custom 3D-printed stand" loading="lazy">
+          </button>
+          <figcaption>Custom stand</figcaption>
+        </figure>
+
+        <figure class="gallery-card gallery-tall">
+          <button class="gallery-open" type="button" data-src="assets/gallery/custom-organizer.webp" data-alt="Red custom 3D-printed organizer">
+            <img src="assets/gallery/custom-organizer.webp" alt="Red custom 3D-printed organizer" loading="lazy">
+          </button>
+          <figcaption>Alcohol / Insulin Pen Organizer</figcaption>
+        </figure>
+
+        <figure class="gallery-card gallery-tall">
+          <button class="gallery-open" type="button" data-src="assets/gallery/barrel-container.webp" data-alt="Brown and black barrel-style 3D-printed container">
+            <img src="assets/gallery/barrel-container.webp" alt="Brown and black barrel-style 3D-printed container" loading="lazy">
+          </button>
+          <figcaption>Glencairn Barrel Protector</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="how-it-works" aria-labelledby="how-title">
+      <div>
+        <p class="eyebrow">HOW IT WORKS</p>
+        <h2 id="how-title">Find it. Send it. We print it.</h2>
+      </div>
+      <ol>
+        <li><span>01</span><p><strong>Browse designs</strong>Find a model you like on MakerWorld.</p></li>
+        <li><span>02</span><p><strong>Copy the link</strong>Send us the design and your preferred material.</p></li>
+        <li><span>03</span><p><strong>Get your quote</strong>We’ll confirm the filament weight and total price.</p></li>
+      </ol>
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">READY TO PRINT?</p>
+        <h2 id="contact-title">Send us your design.</h2>
+        <p>Click below to copy our email, then send the model link and tell us how you plan to use the print.</p>
+      </div>
+      <button class="copy-email contact-trigger" type="button">
+        <span>LAB@THATEYEPLACE.COM</span>
+        <strong>EMAIL US</strong>
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand">
+      <img src="assets/that-3d-print-shop-logo-full.svg" alt="That 3D Print Shop">
+    </div>
+    <p>Custom 3D printing • Priced by filament weight</p>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" aria-hidden="true">
+    <span class="toast-check" aria-hidden="true">✓</span>
+    <span><strong>Email copied</strong>LAB@THATEYEPLACE.COM</span>
+  </div>
+
+  <dialog class="lightbox" aria-label="Expanded gallery photo">
+    <button class="lightbox-close" type="button" aria-label="Close photo">×</button>
+    <img src="" alt="">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
               <div class="petg-swatch"><span class="swatch-sample yellow" aria-hidden="true"></span><strong>Yellow</strong><small>PETG</small></div>
               <div class="petg-swatch"><span class="swatch-sample olive-green" aria-hidden="true"></span><strong>Olive Green</strong><small>PETG</small></div>
               <div class="petg-swatch"><span class="swatch-sample coffee-brown" aria-hidden="true"></span><strong>Coffee Brown</strong><small>PETG</small></div>
