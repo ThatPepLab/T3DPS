@@ -197,6 +197,10 @@ h2 { margin-bottom: 12px; color: var(--navy); font-size: clamp(37px, 5vw, 60px);
 .swatch-sample.coffee-brown { background: #5b3724; }
 .swatch-sample.beige { background: #d9c39e; }
 .swatch-sample.oak { background: #b88652; }
+.swatch-sample.marble-white { background: linear-gradient(135deg,#f6f6f3 0%,#d9d9d4 42%,#ffffff 62%,#c8c8c2 100%); }
+.swatch-sample.starlight-neptune { background: radial-gradient(circle at 68% 28%,#8ad2ff 0 5%,transparent 6%),radial-gradient(circle at 30% 68%,#6aa7ff 0 4%,transparent 5%),linear-gradient(145deg,#0c2d66,#2856a6 52%,#183470); }
+.swatch-sample.silk-gold { background: linear-gradient(135deg,#8f6613 0%,#e2b84d 30%,#fff0a3 48%,#c18b19 72%,#f2cf69 100%); }
+.swatch-sample.celestial-purple { background: radial-gradient(circle at 72% 22%,#d7a8ff 0 5%,transparent 6%),radial-gradient(circle at 28% 70%,#9f7cff 0 4%,transparent 5%),linear-gradient(145deg,#4a2578,#7e4fc2 52%,#35205f); }
 .petg-swatch strong { align-self: end; color: var(--navy); font-size: 17px; }
 .petg-swatch small { align-self: start; color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .1em; }
 .color-note { margin: auto 0 0; padding-top: 22px; color: var(--muted); font-size: 14px; }
